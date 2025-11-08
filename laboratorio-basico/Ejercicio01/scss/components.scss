@@ -1,0 +1,37 @@
+@use "mixins" as *;
+@use "variables" as *;
+
+.container-1 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+
+  & div {
+    padding: 25px 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 0.9rem;
+
+    & span {
+      text-align: center;
+      display: inline-block;
+      white-space: nowrap; /* evita el salto de línea */
+      width: auto;
+    }
+  }
+}
+
+.color-1 {
+  @include gradiente-colors($base-color1);
+}
+
+.color-2 {
+  @include gradiente-colors($base-color2);
+}
+
+.color-3 {
+  @include gradiente-colors($base-color3);
+}
