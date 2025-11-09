@@ -1,0 +1,24 @@
+@use "sass:color";
+
+// colores
+$base-red: hsl(0, 100%, 50%);
+$dark-red: color.scale($base-red, $lightness: -50%);
+$light-red: color.scale($base-red, $lightness: 50%);
+$base-blue: hsl(230, 100%, 50%);
+$dark-blue: color.scale($base-blue, $lightness: -50%);
+$light-blue: hsl(182, 100%, 50%);
+$base-gray: hsl(0, 0%, 27%);
+$base-white: hsl(0, 0%, 100%);
+$base-shadow: hsl(0, 0%, 19%);
+
+// tipografia
+$font-primary-A: "Times New Roman", Times, serif;
+$font-secondary-A: monospace;
+
+$font-primary-B: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+$font-secondary-B: Arial, Helvetica, sans-serif;
+
+$font-size-primary-A: 1rem;
+$font-size-seconday-A: 1rem;
+$font-size-primary-B: 1rem;
+$font-size-secondary-B: 0.9rem;
