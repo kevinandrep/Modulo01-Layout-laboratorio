@@ -1,0 +1,47 @@
+@use "variables.scss" as *;
+
+// TEMA A
+
+.container-tema-A {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  > :nth-child(2) {
+    background-color: $base-red;
+  }
+
+  :nth-child(3) {
+    background-color: $dark-red;
+  }
+
+  :nth-child(4) {
+    background-color: $light-red;
+  }
+
+  :nth-child(5) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 1rem;
+    width: 8rem;
+    height: 5rem;
+
+    :nth-child(1) {
+      font-family: $font-primary-A;
+      font-size: $font-size-primary-A;
+    }
+
+    :last-child {
+      font-family: $font-secondary-A;
+      font-size: $font-size-seconday-A;
+    }
+  }
+
+  :nth-child(6) {
+    box-shadow: -10px 10px 8px 4px $base-shadow;
+    background-color: $base-white;
+  }
+}
