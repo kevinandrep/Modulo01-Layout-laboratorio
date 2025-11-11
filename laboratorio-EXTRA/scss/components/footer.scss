@@ -1,0 +1,12 @@
+@use "../variables.scss" as *;
+
+// FOOTER
+footer {
+  background-color: $color-background-li;
+  padding: 20px;
+  color: $color-text-green;
+  font-weight: 500;
+  text-align: start;
+  position: relative;
+  z-index: 10;
+}

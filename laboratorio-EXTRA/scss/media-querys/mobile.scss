@@ -1,0 +1,70 @@
+@use "../variables.scss" as *;
+
+// MEDIA QUERIES PARA MÓVILES
+@media (max-width: 768px) {
+  .page-container {
+    flex-direction: column;
+
+    nav {
+      position: sticky;
+      width: 100%;
+      padding-top: 0;
+      padding-bottom: 0;
+
+      .menu-container {
+        .menu-title {
+          display: none;
+        }
+
+        ul {
+          display: flex;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+          gap: 10px;
+          padding: 10px;
+
+          li {
+            flex: 1;
+            border-bottom: none;
+
+            a {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+
+    main {
+      margin-left: 0;
+
+      .list {
+        justify-content: center;
+
+        .card {
+          width: 100%;
+          max-width: 500px;
+          min-width: 300px;
+          height: 150px;
+          flex-direction: row;
+          justify-content: start;
+          padding: 0 20px;
+
+          .member-name {
+            text-align: start;
+          }
+        }
+      }
+    }
+  }
+
+  .toolbar {
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+
+    input {
+      width: 100%;
+    }
+  }
+}

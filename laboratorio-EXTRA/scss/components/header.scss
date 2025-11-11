@@ -1,0 +1,31 @@
+@use "../variables.scss" as *;
+
+// HEADER
+header {
+  background-color: $color-background-white;
+  position: relative;
+  z-index: 10;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+
+  input {
+    padding: 5px;
+  }
+
+  div {
+    font-size: 0.9rem;
+    color: $color-gray-darker;
+  }
+}
+
+.page-title {
+  background-color: $color-header;
+  padding: 15px;
+  color: $color-text-white;
+  font-size: 1.2rem;
+}
