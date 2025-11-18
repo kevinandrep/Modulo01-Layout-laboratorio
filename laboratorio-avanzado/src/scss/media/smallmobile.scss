@@ -1,0 +1,15 @@
+@media (max-width: 580px) {
+  .top {
+    flex-direction: column;
+  }
+
+  .first {
+    display: grid;
+    border: 2px solid red;
+    grid-template-columns: 1fr;
+  }
+
+  .first .item:nth-child(n + 5) {
+    grid-column: auto;
+  }
+}

@@ -1,0 +1,30 @@
+@use "./components/header.scss";
+@use "./components/main.scss";
+@use "media/tablets.scss";
+@use "media/bigmobile.scss";
+@use "media/smallmobile.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141414;
+  color: white;
+  font-family: "Jost", sans-serif;
+}
+
+.top::-webkit-scrollbar {
+  height: 6px;
+}
+
+.top::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.top::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}

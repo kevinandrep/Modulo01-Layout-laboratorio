@@ -1,0 +1,25 @@
+@media (max-width: 1280px) {
+  // header {
+  //   padding: 1rem;
+  // }
+
+  .platform-title {
+    font-size: 1.2rem;
+  }
+
+  main {
+    padding: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+  }
+
+  .first {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+
+  .second {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
