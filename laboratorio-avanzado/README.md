@@ -6,7 +6,7 @@
 
 - Contiene el archivo 'index.css', generado automáticamente a partir del código Sass.
 
-- Incluye la estructura completa de archivos y carpetas sass organizada por 'componentes', 'media' 'queries'
+- Incluye la estructura completa de archivos y carpetas sass organizada por 'componentes', 'media'
 
 - El archivo principal 'index.scss' se encarga de importar todos los demás archivos SCSS del proyecto.
 
